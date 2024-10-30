@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("/assets/fonts/Karla-VariableFont_wght.ttf") format("truetype");
+  }
+
+  :root {
+    --color-green-200: 148 38% 91%;
+    --color-green-600: 169 82% 27%;
+    --color-grey-500: 186 15% 59%;
+    --color-grey-900: 187 24% 22%;
+    --color-white: 0 0% 100%;
+    --color-red: 0 66% 54%;
+
+    --color-bg-brand: var(--color-green-600);
+    --color-bg-brand-hovered: var(--color-grey-900);
+    --color-bg-brand: var(--color-green-600);
+    --color-bg-subtle: var(--color-green-200);
+    --color-bg-success: var(--color-grey-900);
+
+    --color-text-neutral: var(--color-grey-900);
+    --color-text-subtle: var(--color-green-200);
+    --color-text-optional: var(--color-green-600);
+    --color-text-danger: var(--color-red);
+    --color-text-inverse: var(--color-white);
+
+    --color-border-subtle: var(--color-grey-500);
+    --color-border-focused: var(--color-green-600);
+    --color-border-danger: var(--color-red);
+
+    --color-icon-brand: var(--color-green-600);
+    --color-icon-success: var(--color-white);
+
+    --elevation-surface: var(--color-white);
+  }
+
+  html {
+    font-family: "Karla", sans-serif;
+  }
+}
