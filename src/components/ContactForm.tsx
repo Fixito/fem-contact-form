@@ -114,7 +114,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
       aria-describedby={formErrorId}
       ref={formRef}
       tabIndex={-1}
-      className="mx-auto grid max-w-[46rem] gap-500 rounded-2xl bg-surface p-300"
+      className="mx-auto grid max-w-[46rem] gap-500 rounded-2xl bg-surface p-300 md:p-500"
     >
       <div className="grid gap-400">
         <h1 className="text-heading">Contact Us</h1>
@@ -202,7 +202,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
                 *
               </span>
             </legend>
-            <div className="grid gap-200">
+            <div className="grid gap-200 md:grid-cols-2">
               <label
                 htmlFor="generalEnquiry"
                 className="flex cursor-pointer items-center gap-150 rounded-lg border border-subtle px-300 py-150 focus-within:ring-1 focus-within:ring-focused focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused has-[:checked]:bg-subtle"
