@@ -123,8 +123,8 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
           <div className="grid gap-300 md:grid-cols-2 md:gap-200">
             {/* First Name */}
             <div className="grid gap-100">
-              <label htmlFor="firstName" className="text-body-sm">
-                First Name{" "}
+              <label htmlFor="firstName" className="flex gap-100 text-body-sm">
+                First Name
                 <span aria-hidden className="text-optional">
                   *
                 </span>
@@ -149,8 +149,8 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
 
             {/* Last Name */}
             <div className="grid gap-100">
-              <label htmlFor="lastName" className="text-body-sm">
-                Last Name{" "}
+              <label htmlFor="lastName" className="flex gap-100 text-body-sm">
+                Last Name
                 <span aria-hidden className="text-optional">
                   *
                 </span>
@@ -173,8 +173,8 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
 
           {/* Email */}
           <div className="grid gap-100">
-            <label htmlFor="email" className="text-body-sm">
-              Email address{" "}
+            <label htmlFor="email" className="flex gap-100 text-body-sm">
+              Email address
               <span aria-hidden className="text-optional">
                 *
               </span>
@@ -196,8 +196,8 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
 
           {/* Query Type */}
           <fieldset className="space-y-200">
-            <legend className="text-body-sm">
-              Query Type{" "}
+            <legend className="flex gap-100 text-body-sm">
+              Query Type
               <span aria-hidden className="text-optional">
                 *
               </span>
@@ -239,8 +239,8 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
 
           {/* Message */}
           <div className="grid gap-100">
-            <label htmlFor="message" className="text-body-sm">
-              Message{" "}
+            <label htmlFor="message" className="flex gap-100 text-body-sm">
+              Message
               <span aria-hidden className="text-optional">
                 *
               </span>
@@ -277,7 +277,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
             className="aspect-square h-[1.125rem] accent-brand focus:outline-none focus:ring-1 focus:ring-focused focus:ring-offset-2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused focus-visible:ring-offset-2"
           />
           <p>
-            I consent to being contacted by the team{" "}
+            I consent to being contacted by the team
             <span aria-hidden className="text-optional">
               *
             </span>
