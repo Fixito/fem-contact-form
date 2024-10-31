@@ -205,7 +205,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
             <div className="grid gap-200 md:grid-cols-2">
               <label
                 htmlFor="generalEnquiry"
-                className="flex cursor-pointer items-center gap-150 rounded-lg border border-subtle px-300 py-150 focus-within:ring-1 focus-within:ring-focused focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused has-[:checked]:bg-subtle"
+                className="flex cursor-pointer items-center gap-150 rounded-lg border border-subtle px-300 py-150 text-body-md-regular focus-within:ring-1 focus-within:ring-focused focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused has-[:checked]:bg-subtle"
               >
                 <input
                   type="radio"
@@ -219,7 +219,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
               </label>
               <label
                 htmlFor="supportRequest"
-                className="flex cursor-pointer items-center gap-150 rounded-lg border border-subtle px-300 py-150 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused has-[:checked]:bg-subtle has-[:focus]:ring-1 has-[:focus]:ring-focused"
+                className="flex cursor-pointer items-center gap-150 rounded-lg border border-subtle px-300 py-150 text-body-md-regular focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused has-[:checked]:bg-subtle has-[:focus]:ring-1 has-[:focus]:ring-focused"
               >
                 <input
                   type="radio"
