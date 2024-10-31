@@ -219,7 +219,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
               </label>
               <label
                 htmlFor="supportRequest"
-                className="flex cursor-pointer items-center gap-150 rounded-lg border border-subtle px-300 py-150 text-body-md-regular focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused has-[:checked]:bg-subtle has-[:focus]:ring-1 has-[:focus]:ring-focused"
+                className="flex cursor-pointer items-center gap-150 rounded-lg border border-subtle px-300 py-150 text-body-md-regular focus-within:ring-1 focus-within:ring-focused focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused has-[:checked]:bg-subtle"
               >
                 <input
                   type="radio"
@@ -227,9 +227,8 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
                   id="supportRequest"
                   value="supportRequest"
                   aria-describedby={queryTypeErrorId}
-                  className="custom-radio aspect-square h-[20px] accent-brand focus:outline-none"
+                  className="aspect-square h-[20px] border-subtle accent-brand focus:outline-none"
                 />
-                <img src="/assets/images" alt="" />
                 Support Request
               </label>
             </div>
