@@ -174,7 +174,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
           {/* Email */}
           <div className="grid gap-100">
             <label htmlFor="email" className="text-body-sm">
-              Email{" "}
+              Email address{" "}
               <span aria-hidden className="text-optional">
                 *
               </span>
@@ -252,7 +252,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
               aria-required
               aria-invalid={messageHasErrors || undefined}
               aria-describedby={messageErrorId}
-              className="rounded-lg border border-subtle px-300 py-150 focus:outline-none focus:ring-1 focus:ring-focused focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused aria-invalid:border-danger"
+              className="min-h-[13.5rem] rounded-lg border border-subtle px-300 py-150 focus:outline-none focus:ring-1 focus:ring-focused focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focused aria-invalid:border-danger md:min-h-[6.75rem]"
             ></textarea>
 
             <ErrorList id={messageErrorId} errors={fieldErrors?.message} />
